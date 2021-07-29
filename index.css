@@ -1,0 +1,58 @@
+<style>
+	
+*{margin: 0;
+padding: 0;
+
+}
+
+header{width: 100vw;
+height: 100px;
+background-color: green;
+margin: 0px auto;
+}
+header h1{text-align: center;
+font-size: 10vw;
+color: white;
+}
+
+main{border: 1px solid black;
+width: 95%;
+
+display: flex;
+margin: 20px auto;
+padding: 10px;
+
+}
+ section{width: 30%;
+height: 400px;
+background-color: red;
+margin: 10px auto;
+
+ }
+
+
+footer{width: 100vw;
+height: 100px;
+background-color: black;
+
+}
+
+@media screen and (max-width: 600px) {
+	header{height: 50px;
+background-color: black;
+
+	}
+
+main{display: block;
+border: none;
+width: 100%;
+padding: 0;
+
+}
+section{width: 95%;}
+footer{height: 50px;
+background-color: green;
+}
+
+}
+</style>
